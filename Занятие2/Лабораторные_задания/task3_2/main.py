@@ -1,10 +1,14 @@
 def min_len_check(fn):
-    # TODO записать обертку для исходной функции
+    def wrapper(*args, **kwargs):
+        if len(*args, **kwargs) < 10:
+            raise ValueError("Строка слишком короткая")
+        result = fn(*args, **kwargs)
+        return result
 
     return wrapper
 
 
-# TODO задекорировать функцию
+@min_len_check
 def some_func(str_arg: str):
     ...
 
