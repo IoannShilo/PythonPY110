@@ -4,15 +4,15 @@ files:
   visible: true
   placeholders:
   - offset: 178
-    length: 71
+    length: 20
     placeholder_text: '...  # TODO с помощью метода write запишите построчно содержимое
       списка'
     initial_state:
-      length: 71
+      length: 20
       offset: 178
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: f.write(word + "\n")
   text: |
     def task():
@@ -49,5 +49,8 @@ files:
     Два
     Три
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 24 Nov 2021 15:53:33 UTC
 record: -1

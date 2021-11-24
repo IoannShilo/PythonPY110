@@ -32,5 +32,11 @@ files:
   text: |
     1,4,9,16,25,36,49,64,81,100
   learner_created: false
-status: Unchecked
+- name: intput.txt
+  visible: true
+  learner_created: true
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 24 Nov 2021 16:15:12 UTC
 record: -1

@@ -2,7 +2,9 @@ OUTPUT_FILE = "output.txt"
 
 
 def task():
-    ...  # TODO записать лесенку в файл
+    with open(OUTPUT_FILE, "w") as f:
+        for lestnica in range(1, 11):
+            f.write(f"{lestnica * '*':>10}\n")
 
 
 if __name__ == "__main__":
